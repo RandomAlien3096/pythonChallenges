@@ -35,3 +35,18 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
+
+
+"""
+The included code stub will read an integer,n , from STDIN.
+
+Without using any string methods, try to print the following:
+123...n
+Note that "" represents the consecutive values in between.
+"""
+
+if __name__ == '__main__':
+    n = int(input())
+    i=1
+    for i in range(n):
+        print(i+1, end="")
